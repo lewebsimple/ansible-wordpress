@@ -1,0 +1,12 @@
+---
+- name: Update local WordPress development environment
+  hosts: localhost
+  vars:
+    project_name: "example"
+    remote_path: "/var/www/example"
+    local_path: "~/Projects/WordPress/sites/example"
+    sync_mode: "pull"
+    remote_port: 2222
+
+  roles:
+    - sync-uploads
