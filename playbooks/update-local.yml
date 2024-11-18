@@ -9,4 +9,4 @@
     remote_port: 2222
 
   roles:
-    - sync-uploads
+    - sync_uploads
