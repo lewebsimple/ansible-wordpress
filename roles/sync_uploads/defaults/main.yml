@@ -1,5 +1,4 @@
 ---
 remote_path: "/var/www/example"
 local_path: "~/Projects/WordPress/sites/example"
-sync_mode: "pull"
 remote_port: 2222
